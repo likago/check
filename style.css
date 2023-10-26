@@ -27,17 +27,16 @@ main {
 .all-boxes {
     max-width: 1000px;
     margin: auto;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
 } 
 .box {
     padding: 20px;
     max-width: 280px;
-    display: inline-block;
     background-color: #FFFFFF;
 }
 svg {
     max-width: 120px;
+    max-height: 24px;
 }
 .box h3 {
     font-family: oswald;
